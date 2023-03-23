@@ -1,0 +1,68 @@
+*{
+    margin: 0;padding: 0;
+    box-sizing: 0;background-origin: padding-box;
+    
+}
+h1{
+    padding: 10px 10px;
+    text-align: center;
+    display: flex;
+    background-image:linear-gradient(to right,#258451,#e3164a,#55e28b);
+    justify-content: space-between;
+    text-transform: capitalize;
+}
+button{
+    padding: 15px 45px;
+    text-align: center;
+    display: flex;
+    font-size: 14px;
+    color:#fff;
+    border: none;
+    background-image:linear-gradient(to right,#390453,#580419,#280f6c);
+
+    border-radius: 10px;
+    float: left;
+}
+h2{
+    margin-left: 50px;
+    margin-right: 50px;
+    text-align: center;
+    color: #fff;
+    background-image:linear-gradient(to right,#390453,#580419,#280f6c);
+    justify-content: space-between;
+    text-transform: capitalize;
+}
+ul{
+    
+    text-align: center;
+    color: purple;
+    /* background-image:linear-gradient(to right,#390453,#580419,#280f6c); */
+    justify-content: space-between;
+    text-transform: capitalize;
+}
+.img{
+    width: 100 100;
+
+}
+.backimg{
+    width: 100%;
+    height: 100%;
+    background-image: url('nature.jpg');
+    background-size: 100% 100%;
+    background-color: #390453;
+    background-attachment: fixed;
+    background-repeat: repeat-y;
+
+}
+.backimg1{
+    width:100%;
+    height:100vh;
+    background-color:green;  
+    background-image: url('flower.jpg'); 
+    background-repeat:repeat-y;
+    background-size:100% 100%;
+    background-attachment: fixed;
+}
+
+
+
